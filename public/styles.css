@@ -1,0 +1,437 @@
+/*body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/021/503/797/original/space-and-astronaut-seamless-doodle-pattern-with-black-and-white-color-vector.jpg') repeat;
+    color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347; 
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    color: #fff;
+}
+
+#about {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#projects {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.project {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project h3 {
+    color: #fff;
+}
+
+.project a {
+    color: #ff6347; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+#skills {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background: #ff6347; 
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#contact {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#contact-form button {
+    background: #ff6347; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#contact-form button:hover {
+    background: #ff4500; 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    .project {
+        margin: 10px 0;
+    }
+    #contact-form {
+        padding: 20px;
+    }
+}*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/021/503/797/original/space-and-astronaut-seamless-doodle-pattern-with-black-and-white-color-vector.jpg') repeat;
+    color: #ffffff;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6347; /* Tomato color */
+  }
+  
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #home {
+    background: rgba(0, 0, 0, 0.9); /*linear-gradient(to right, #0f2027, #203a43, #2c5364);  /* Deep Space gradient */
+    color: #fff;
+  }
+  
+  #about {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #projects {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .project {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project h3 {
+    color: #fff;
+  }
+  
+  .project a {
+    color: #ff6347; /* Tomato color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
+  #skills {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    background: #ff6347; /* Tomato color */
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  
+  #contact {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  #contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  #contact-form button {
+    background: #ff6347; /* Tomato color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  #contact-form button:hover {
+    background: #ff4500; /* Darker tomato color */
+  }
+  
+  footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  #resources,
+  #create {
+    background: rgba(0, 0, 0, 0.7); /* Darker background for better contrast */
+    color: #fff; /* White text color for better visibility */
+    padding: 60px 20px;
+    text-align: left;
+  }
+  
+  #resources a,
+  #create a {
+    color: #ff6347; /* Tomato color for links */
+    text-decoration: none;
+     line-height: 0.9;
+  }
+  
+  #resources a:hover,
+  #create a:hover {
+    text-decoration: underline;
+  }
+  
+  #create {
+    background-color: rgba(0, 0, 0, 0.9); 
+    padding: 60px 20px; /* Adjust the padding as needed */
+    text-align: left; /* Align text to the left */
+  }
+  
+  #create h2 {
+    font-size: 1.2em; /* Adjust the font size of the heading */
+    margin-bottom: 10px; /* Space below the heading */
+    color: #fff; /* Text color */
+  }
+  
+  #create p,
+  #create ol {
+    font-size: 1em; /* Adjust the font size for readability */
+    line-height: 0.9; /* Improved line spacing for readability */
+    color: #fff; /* Text color */
+  }
+  
+  #create ol {
+    padding-left: 20px; /* Add padding to the left for the ordered list */
+  }
+  
+  #create ol li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  #create a {
+    color: #ff6347; 
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Bold text for links */
+  }
+  
+  #create a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  #profiles {
+    background: rgba(0, 0, 0, 0.7); 
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    background-color: #ff4500; 
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-button i {
+    margin-right: 8px;
+  }
+  
+  .social-button:hover {
+    background-color: #FFB6C1; /* Sunset Pink */
+    transform: scale(1.05);
+  }
+  
+  ---------------
+  #contact-list {
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item h3 {
+    margin: 0;
+  }
+  
+  .contact-item p {
+    margin: 5px 0;
+  }
+  
